@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href="lelink.css">
+    <link rel="stylesheet" href="lelink.css">
     <title>LeLink OBD Adapter</title>
 </head>
+
 <body>
-    <div id = "wrapper">
+    <div id="wrapper">
         <header>
             <h1>LeLink</h1>
         </header>
@@ -42,35 +44,72 @@
                 <!-- Next and previous buttons -->
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                </div>
-                <br>
+            </div>
+            <br>
 
-                <!-- The dots/circles -->
-                <div style="text-align:center">
+            <!-- The dots/circles -->
+            <div style="text-align:center">
                 <span class="dot" onclick="currentSlide(1)"></span>
                 <span class="dot" onclick="currentSlide(2)"></span>
                 <span class="dot" onclick="currentSlide(3)"></span>
-                </div>
             </div>
-            <div class="chart">
-                <img src="chart.png" style="width:50%">
-            </div>
-            <div class="purchase-area">
-                <a href="https://www.amazon.com/LELink-Bluetooth-Energy-OBD-II-Diagnostic/dp/B00QJRYMFC?crid=3JXSHFNB4DFPU&dib=eyJ2IjoiMSJ9.fT4fppLhZOilGtAeVVZJP9Pdq5pzGalgMbBztKljfAf85Aoruvj4YGyavzDASdhd7juo-um7S85GQeZU-ZqPhrLtN9ozrPgw-urTXAsxqP0yMBM759py1i82dop6VcyumpnrLd7QTZbfpZy8sRVXWNWrgAtPWWR26uWY5pfm3DA9DLdB0EO3haN0ZaQaW0RMiGKKlq7P0Cut6gtEVb-ovE8vCOrJMmq_-j6ybV_DHe0_cM_GDVZPMnsQWgaJHsLZblZn5YNeTOq06iI90MWTypXbo1G_lw38nxJ3OHXM9w4.jHyiYo_UGOMUFBkafR0cFRPtj8no8dUlzg6UcHPnTFM&dib_tag=se&keywords=lelink+obd&qid=1762342125&sprefix=lelink+o%2Caps%2C300&sr=8-1" 
-                target="_blank"> <img src="https://www.niftybuttons.com/amazon/amazon-button2.png" 
-                alt="Amazon"> </a>
-            </div>
-        </main>
-        <footer>
-            <ul>
-                <a href="contactus.html">Contact Us</a>
-                <a href="terms.html">Terms of Use</a>
-                <a href="feedback.html">Feedback</a>
-            </ul>
-        </nav>
-            <p>&copy; 2025 LeLink. All rights reserved.</p>
-        </footer>
     </div>
-<script src="script.js"></script>
+    <div class="video-container">
+        <video controls width="640" height="360">
+            <source src="vid.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <section class="comparison-table">
+        <h2>OBD-II Adapter Comparison</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Feature / Product</th>
+                    <th>LELink</th>
+                    <th>BlueScan Pro</th>
+                    <th>OBDMaster X2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Platform Support</td>
+                    <td>iOS + Android (BLE, no pairing)</td>
+                    <td>Android only</td>
+                    <td>iOS + Android</td>
+                </tr>
+                <tr>
+                    <td>Refresh Rate</td>
+                    <td>Turbo Mode – Fast</td>
+                    <td>Medium</td>
+                    <td>Slow–Medium</td>
+                </tr>
+                <tr>
+                    <td>Security</td>
+                    <td>Passcode protection</td>
+                    <td>No security features</td>
+                    <td>Basic PIN lock</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <div class="purchase-area">
+        <a href="https://www.amazon.com/LELink-Bluetooth-Energy-OBD-II-Diagnostic/dp/B00QJRYMFC?crid=3JXSHFNB4DFPU&dib=eyJ2IjoiMSJ9.fT4fppLhZOilGtAeVVZJP9Pdq5pzGalgMbBztKljfAf85Aoruvj4YGyavzDASdhd7juo-um7S85GQeZU-ZqPhrLtN9ozrPgw-urTXAsxqP0yMBM759py1i82dop6VcyumpnrLd7QTZbfpZy8sRVXWNWrgAtPWWR26uWY5pfm3DA9DLdB0EO3haN0ZaQaW0RMiGKKlq7P0Cut6gtEVb-ovE8vCOrJMmq_-j6ybV_DHe0_cM_GDVZPMnsQWgaJHsLZblZn5YNeTOq06iI90MWTypXbo1G_lw38nxJ3OHXM9w4.jHyiYo_UGOMUFBkafR0cFRPtj8no8dUlzg6UcHPnTFM&dib_tag=se&keywords=lelink+obd&qid=1762342125&sprefix=lelink+o%2Caps%2C300&sr=8-1"
+            target="_blank"> <img src="https://www.niftybuttons.com/amazon/amazon-button2.png" alt="Amazon"> </a>
+    </div>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="terms.html">Terms of Use</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+        <p class="footer-text">&copy; 2025 LeLink. All rights reserved.</p>
+        <p class="support-email">For additional help, email us at <a
+                href="mailto:support@ksolution.com">support@ksolution.com</a></p>
+        <img src="lelink_tag.png" alt="LeLink Logo" class="footer-logo">
+    </footer>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
